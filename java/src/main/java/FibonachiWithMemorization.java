@@ -8,7 +8,7 @@ public class FibonachiWithMemorization {
 
         FibonachiWithMemorization fibonachiWithMemorization = new FibonachiWithMemorization();
 
-        System.out.println(fibonachiWithMemorization.fib(8));
+        System.out.println(fibonachiWithMemorization.fib(50));
 
     }
 
