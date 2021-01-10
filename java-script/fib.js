@@ -5,6 +5,7 @@ const fib = (number , memo={}) => {
         return 1;
         
     memo[number] = fib(number - 1 , memo) + fib(number - 2 , memo);
+    
     return memo[number];
 }
 
