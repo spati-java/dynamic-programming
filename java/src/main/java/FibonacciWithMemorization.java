@@ -1,14 +1,14 @@
 import java.util.HashMap;
 
-public class FibonachiWithMemorization {
+public class FibonacciWithMemorization {
 
     HashMap<Integer, Integer> map = new HashMap<>();
 
     public static void main(String[] args) {
 
-        FibonachiWithMemorization fibonachiWithMemorization = new FibonachiWithMemorization();
+        FibonacciWithMemorization fibonacciWithMemorization = new FibonacciWithMemorization();
 
-        System.out.println(fibonachiWithMemorization.fib(50));
+        System.out.println(fibonacciWithMemorization.fib(50));
 
     }
 
@@ -24,4 +24,6 @@ public class FibonachiWithMemorization {
         return this.map.get(number);
 
     }
+
+
 }
